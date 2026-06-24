@@ -1,9 +1,21 @@
 /* Just to visually verify the CSS is linked and working */
 body {
-    background-color: #f0f0f0;
+    display: flex;
+    /* turns the body into a flexbox */
+    flex-direction: ;
+    /* stacks the txt elements vertically on top of each other */
+    align-items: center;
+    /* centers the text horizontally on the screen */
+    justify-content: center;
+    /* centers the text vertically on the screen */
+    height: 100vh;
+    /* makes the body fill the entire height of the screen so vertical centering works */
+    margin: 0;
+    /* removes the default spacing around the edge of the page */
     font-family: sans-serif;
-    padding: 40px;
-    text-align: center;
+    /* changes text font */
+    background-color: #f0f0f0;
+    /* background colour */
 }
 
 h1 {
