@@ -8,6 +8,8 @@ In #2 I will be utilsing the following languages:
 - CSS
 -Javascript
 ## index.html
+This file is what brings the app to life on the internet(its the canvas)
+
 `<html>` elements:
 - `<head>`
   - its the identity & brains of what the users sees on the webpage(the supplier)
@@ -28,13 +30,24 @@ In #2 I will be utilsing the following languages:
     - `<input>` - input
 
 ## style.css
+This file is what gives "colour & details" to my application(the paint)
+- CSS Properties(Element Styling):
+  - `display: flex;` - turns the body into a flexbox.
+  - `position: absolute` -
+  - `felx-direction: ;` - gives each element a space of their own.
+  - `align-items: ;` & `justify-content`- positions the text on the screen(one controls the alignment along the main axis(the direction the items are laying out) and one along the cross axis(the opposite direction))
+  - `height: *percentage vh` - is what the element refers too to know what size(vertical space) it should occupy on the screen
+  - `margin: *number` - creates an invisible border for an element
+  - `font-family: *font;` - font of element
+  - `background-colour: *color code` - color of element
+  
 `<style>` methods:
 - Method A : Simple Text Alignment
   - `text-align: *position;`
 - Method B : Spacing out elements using Margins
   - `margin-*position: *pixel position;`
 - Method C : Flexbox(The Modern Layout Powerhouse)
-  - ```html
+   ```
     <style>
         body {
             display: flex;
