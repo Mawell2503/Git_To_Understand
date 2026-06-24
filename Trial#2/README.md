@@ -40,7 +40,7 @@ This file is what gives "colour & details" to my application(the paint)
   - `margin: *number` - creates an invisible border for an element
   - `font-family: *font;` - font of element
   - `background-colour: *color code` - color of element
-  
+
 `<style>` methods:
 - Method A : Simple Text Alignment
   - `text-align: *position;`
@@ -59,3 +59,4 @@ This file is what gives "colour & details" to my application(the paint)
         </style>
     ```
 
+things to add: <head> descriptions + style additions
