@@ -49,14 +49,14 @@ This file is what gives "colour & details" to my application(the paint)
 - Method C : Flexbox(The Modern Layout Powerhouse)
    ```
     <style>
-        body {
-            display: flex;
-            flex-direction: column; /* Stacks items vertically */
-            align-items: center;    /* Centers them horizontally */
-            justify-content: center;/* Centers them vertically on the screen */
-            height: 100vh;          /* Makes the body take up 100% of the screen height */
-        }
-        </style>
+      body {
+          display: flex;
+          flex-direction: column; /* Stacks items vertically */
+          align-items: center;    /* Centers them horizontally */
+          justify-content: center;/* Centers them vertically on the screen */
+          height: 100vh;          /* Makes the body take up 100% of the screenheight */
+      }
+    </style>
     ```
 
 <b> things to add: <head> descriptions + style additions <b>
