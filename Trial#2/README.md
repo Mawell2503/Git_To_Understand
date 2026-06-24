@@ -59,4 +59,4 @@ This file is what gives "colour & details" to my application(the paint)
         </style>
     ```
 
-things to add: <head> descriptions + style additions
+<b> things to add: <head> descriptions + style additions <b>
