@@ -6,7 +6,7 @@ body {
     /* stacks the txt elements vertically on top of each other */
     align-items: center;
     /* centers the text horizontally on the screen */
-    justify-content: center;
+    justify-content: space-around;
     /* centers the text vertically on the screen */
     height: 100vh;
     /* makes the body fill the entire height of the screen so vertical centering works */
@@ -14,7 +14,7 @@ body {
     /* removes the default spacing around the edge of the page */
     font-family: sans-serif;
     /* changes text font */
-    background-color: #f0f0f0;
+    background-color: #F5276C;
     /* background colour */
 }
 
